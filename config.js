@@ -1,3 +1,3 @@
-﻿window.TIDAL_CUSTOMER_PUBLIC = {
-  apiOrigin: "https://thehun-tried-earnings-penalty.trycloudflare.com"
+window.TIDAL_CUSTOMER_PUBLIC = {
+  apiOrigin: "https://derek-answer-therapy-pirates.trycloudflare.com"
 };
