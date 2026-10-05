@@ -1,3 +1,3 @@
-window.TIDAL_CUSTOMER_PUBLIC = {
-  apiOrigin: "https://derek-answer-therapy-pirates.trycloudflare.com"
+﻿window.TIDAL_CUSTOMER_PUBLIC = {
+  apiOrigin: "https://costa-hewlett-accepted-campbell.trycloudflare.com"
 };
