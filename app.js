@@ -29,6 +29,9 @@ window.__TIDAL_APP_LOADED__ = true;
     }
     var frame = document.createElement('iframe');
     frame.title = 'Tidal Insurance Advisor';
+    // Camera/mic must be delegated into the API-origin journey frame (GitHub Pages shell ≠ journey origin).
+    frame.setAttribute('allow', 'camera; microphone; autoplay; clipboard-write');
+    frame.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
     frame.src = apiOrigin + '/insurance/' + encodeURIComponent(token);
     frame.onload = function () { if (boot) boot.remove(); };
     document.body.appendChild(frame);
