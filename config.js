@@ -1,3 +1,3 @@
 window.TIDAL_CUSTOMER_PUBLIC = {
-  apiOrigin: "https://continue-commit-martial-download.trycloudflare.com"
+  apiOrigin: "https://branches-generate-nowhere-mails.trycloudflare.com"
 };
