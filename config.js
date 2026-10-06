@@ -1,3 +1,3 @@
-﻿window.TIDAL_CUSTOMER_PUBLIC = {
-  apiOrigin: "https://costa-hewlett-accepted-campbell.trycloudflare.com"
+window.TIDAL_CUSTOMER_PUBLIC = {
+  apiOrigin: "https://continue-commit-martial-download.trycloudflare.com"
 };
