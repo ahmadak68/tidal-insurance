@@ -1,3 +1,3 @@
-window.TIDAL_CUSTOMER_PUBLIC = {
-  apiOrigin: "https://precision-starting-tool-exempt.trycloudflare.com"
+﻿window.TIDAL_CUSTOMER_PUBLIC = {
+  apiOrigin: "https://joined-thick-correspondence-bids.trycloudflare.com"
 };
