@@ -13,7 +13,10 @@ window.__TIDAL_APP_LOADED__ = true;
   }
   ready(function () {
     var cfg = window.TIDAL_CUSTOMER_PUBLIC || {};
-    var apiOrigin = (cfg.apiOrigin || '').replace(/\/$/, '');
+    var paramsApi = '';
+    try { paramsApi = new URLSearchParams(location.search).get('api') || ''; } catch (e) { paramsApi = ''; }
+    // Prefer ?api= from the WhatsApp link (live tunnel) over cached config.js.
+    var apiOrigin = (paramsApi || cfg.apiOrigin || '').replace(/\/$/, '');
     var path = location.pathname || '';
     var m = path.match(/\/j\/([^\/?#]+)/i);
     var token = m ? decodeURIComponent(m[1]) : '';
